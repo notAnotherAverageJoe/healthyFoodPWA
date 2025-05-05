@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  line-height: 1.6;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #2d6a4f;
+}
+
+/* Main container */
+#data-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5em;
+  padding: 1em;
+}
+
+/* Card styles */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.5em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h2 {
+  color: #1d3557;
+  margin-bottom: 0.5em;
+}
+
+.card p {
+  margin: 0.4em 0;
+  font-size: 0.95em;
+}
+
+.card img {
+  margin-top: 1em;
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  margin-top: auto;
+  font-size: 0.9em;
+  color: #777;
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  line-height: 1.6;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #2d6a4f;
+}
+
+/* Main container */
+#data-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5em;
+  padding: 1em;
+}
+
+/* Card styles */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.5em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h2 {
+  color: #1d3557;
+  margin-bottom: 0.5em;
+}
+
+.card p {
+  margin: 0.4em 0;
+  font-size: 0.95em;
+}
+
+.card img {
+  margin-top: 1em;
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  margin-top: auto;
+  font-size: 0.9em;
+  color: #777;
+}
